@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SingleDraw - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/SingleDraw.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\西安理工大学 相关文件\本科课程！\计算机图形学\DrawLineView\SingleDraw\Line.cpp"
+"G:\西安理工大学 相关文件\本科课程！\计算机图形学\DrawLineView\SingleDraw\MainFrm.cpp"
+"G:\西安理工大学 相关文件\本科课程！\计算机图形学\DrawLineView\SingleDraw\SingleDraw.cpp"
+"G:\西安理工大学 相关文件\本科课程！\计算机图形学\DrawLineView\SingleDraw\SingleDrawDoc.cpp"
+"G:\西安理工大学 相关文件\本科课程！\计算机图形学\DrawLineView\SingleDraw\SingleDrawView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5F.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP60.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/SingleDraw.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\西安理工大学 相关文件\本科课程！\计算机图形学\DrawLineView\SingleDraw\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP60.tmp" 
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Line.cpp
+MainFrm.cpp
+SingleDraw.cpp
+SingleDrawDoc.cpp
+SingleDrawView.cpp
+Generating Code...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP61.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/SingleDraw.pdb" /machine:I386 /out:"Release/SingleDraw.exe" 
+".\Release\Line.obj"
+".\Release\MainFrm.obj"
+".\Release\SingleDraw.obj"
+".\Release\SingleDrawDoc.obj"
+".\Release\SingleDrawView.obj"
+".\Release\StdAfx.obj"
+".\Release\SingleDraw.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP61.tmp"
+<h3>Output Window</h3>
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/SingleDraw.bsc"  ".\Release\StdAfx.sbr" ".\Release\Line.sbr" ".\Release\MainFrm.sbr" ".\Release\SingleDraw.sbr" ".\Release\SingleDrawDoc.sbr" ".\Release\SingleDrawView.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+SingleDraw.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

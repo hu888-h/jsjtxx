@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DLGExam - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/DLGExam.res" /d "NDEBUG" /d "_AFXDLL" "G:\西安理工大学 相关文件\本科课程！\计算机图形学\DLGExam\DLGExam.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/DLGExam.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\西安理工大学 相关文件\本科课程！\计算机图形学\DLGExam\ChildFrm.cpp"
+"G:\西安理工大学 相关文件\本科课程！\计算机图形学\DLGExam\DLGExam.cpp"
+"G:\西安理工大学 相关文件\本科课程！\计算机图形学\DLGExam\DLGExamDoc.cpp"
+"G:\西安理工大学 相关文件\本科课程！\计算机图形学\DLGExam\DLGExamView.cpp"
+"G:\西安理工大学 相关文件\本科课程！\计算机图形学\DLGExam\Input.cpp"
+"G:\西安理工大学 相关文件\本科课程！\计算机图形学\DLGExam\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/DLGExam.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\西安理工大学 相关文件\本科课程！\计算机图形学\DLGExam\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6B.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/DLGExam.pdb" /machine:I386 /out:"Release/DLGExam.exe" 
+".\Release\ChildFrm.obj"
+".\Release\DLGExam.obj"
+".\Release\DLGExamDoc.obj"
+".\Release\DLGExamView.obj"
+".\Release\Input.obj"
+".\Release\MainFrm.obj"
+".\Release\StdAfx.obj"
+".\Release\DLGExam.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+DLGExam.cpp
+DLGExamDoc.cpp
+DLGExamView.cpp
+Input.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+DLGExamView.obj : error LNK2001: unresolved external symbol "public: __thiscall CDlgExam::CDlgExam(class CWnd *)" (??0CDlgExam@@QAE@PAVCWnd@@@Z)
+Release/DLGExam.exe : fatal error LNK1120: 1 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+DLGExam.exe - 2 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Fill - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP50.tmp" with contents
+[
+opengl32.lib glu32.lib glaux.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Fill.pdb" /machine:I386 /out:"Release/Fill.exe" 
+".\Release\Fill.obj"
+".\Release\FillDoc.obj"
+".\Release\FillView.obj"
+".\Release\MainFrm.obj"
+".\Release\StdAfx.obj"
+".\Release\Trigle.obj"
+".\Release\Fill.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP50.tmp"
+<h3>Output Window</h3>
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/Fill.bsc"  ".\Release\StdAfx.sbr" ".\Release\Fill.sbr" ".\Release\FillDoc.sbr" ".\Release\FillView.sbr" ".\Release\MainFrm.sbr" ".\Release\Trigle.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Fill.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
